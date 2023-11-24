@@ -48,28 +48,5 @@ public class MathExample {
 		// 반올림 하고 나서 long 타입의 정수값으로 결과 반환
 		long v13 = Math.round(5.341352);
 		System.out.println("v13 : " + v13);
-		
-		// 0 <= ~ < 1.0
-		double random = Math.random();
-		System.out.println("random : " + random);
-		
-		// 거듭 제곱
-		// pow(a, b);
-		// a와 b에 대한 제곱 연산
-		double v14 = Math.pow(2, 10);
-		System.out.println("v14 : " + v14);
-		
-		// 매개변수의 제곱근을 구함.
-		// 16dml 제곱근 4 sqrt(Square Root);
-		double v15 = Math.sqrt(9);
-		System.out.println("v15 : " + v15);
-		
-		// 두 수의 값의 차이를 정수로 반환
-		int v16 = Math.subtractExact(11, -6);
-		System.out.println("v16 : " + v16);
-		
-		System.out.println(Math.cos(20));
-		System.out.println(Math.sin(20));
-		System.out.println(Math.tan(20));
 	}
 }

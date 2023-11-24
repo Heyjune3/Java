@@ -67,9 +67,5 @@ public class MathExample {
 		// 두 수의 값의 차이를 정수로 반환
 		int v16 = Math.subtractExact(11, -6);
 		System.out.println("v16 : " + v16);
-		
-		System.out.println(Math.cos(20));
-		System.out.println(Math.sin(20));
-		System.out.println(Math.tan(20));
 	}
 }
