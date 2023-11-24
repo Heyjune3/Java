@@ -1,0 +1,9 @@
+package f_format;
+
+public class DecimalFormatExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}
