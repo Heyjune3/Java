@@ -1,0 +1,38 @@
+package h_objects;
+
+import java.util.Objects;
+
+public class ObjectsExample {
+
+	public static void main(String[] args) {
+		// Object이 기능을 도와주는 유틸리티 클래스 - Objects
+		
+		String a = null;
+		String a1 = null;
+		
+		boolean isChecked = Objects.isNull(a);
+		
+		// a 는 null인가? true : false;
+		System.out.println(isChecked);
+		System.out.println("1-------------------");
+		
+		// a1은 null이 아닌가? true : false;
+		isChecked = Objects.nonNull(a1);
+		System.out.println(isChecked);
+		System.out.println("2-------------------");
+		
+		isChecked = a.equals(a1);
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
