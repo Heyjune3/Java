@@ -1,7 +1,6 @@
 package g_time;
 
 import java.util.Date;
-import java.text.MessageFormat;
 import java.util.Calendar;
 
 public class CanlendarExample {
@@ -48,17 +47,6 @@ public class CanlendarExample {
 			case Calendar.SUNDAY : 
 				strWeek = "일";
 				break;		
-			} // end week
-			
-			int hour = now.get(Calendar.HOUR);
-			int minute = now.get(Calendar.MINUTE);
-			int second = now.get(Calendar.SECOND);
-			
-			String result = "{0}년 {1}월 {2}일 ({3})요일 {4}시 {5}분 {6}초";
-			Object[] arguments = {
-				year,month,day,strWeek,hour,minute,second	
-			};
-			String str = MessageFormat.format(result, arguments);
-			System.out.println(str);
+			}
 		}
 }

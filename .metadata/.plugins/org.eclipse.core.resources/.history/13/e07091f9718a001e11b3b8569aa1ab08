@@ -1,7 +1,6 @@
 package g_time;
 
 import java.util.Date;
-import java.text.MessageFormat;
 import java.util.Calendar;
 
 public class CanlendarExample {
@@ -58,7 +57,5 @@ public class CanlendarExample {
 			Object[] arguments = {
 				year,month,day,strWeek,hour,minute,second	
 			};
-			String str = MessageFormat.format(result, arguments);
-			System.out.println(str);
 		}
 }
