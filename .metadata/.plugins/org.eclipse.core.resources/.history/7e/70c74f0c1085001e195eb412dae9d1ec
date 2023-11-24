@@ -1,0 +1,5 @@
+package extends5_polymorphism.array;
+
+public class Customer {
+
+}

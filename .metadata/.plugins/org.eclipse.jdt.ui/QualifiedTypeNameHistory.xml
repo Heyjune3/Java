@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.net.MulticastSocket"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="a5_field.A"/>
+    <fullyQualifiedTypeName name="extends4_protected.a.B"/>
+    <fullyQualifiedTypeName name="extends4_protected.a.A"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="a_object.toString.ToStringExample"/>
+    <fullyQualifiedTypeName name="a_object.clone.Member"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

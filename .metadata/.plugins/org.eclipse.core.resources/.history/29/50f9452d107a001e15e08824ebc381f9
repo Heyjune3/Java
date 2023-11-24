@@ -1,0 +1,12 @@
+package com.bitc.iteration_statement;
+
+/**
+ * 반복문(Iteration Statement, Repeative Statement)
+ */
+public class ForStatementExample {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

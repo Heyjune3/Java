@@ -1,0 +1,13 @@
+package abstract_base;
+
+public class Zoo {
+
+	public static void main(String[] args) {
+		// 실체화 되지 않은 기능을 가지고 있는 추상클래스는
+		// 추상클래스만으로 객체 생성이 불가.
+		//Animal animal = new Animal();		// 안됨 abstract 때문 인스턴스가 정의되지 않음
+		
+		
+	}
+
+}

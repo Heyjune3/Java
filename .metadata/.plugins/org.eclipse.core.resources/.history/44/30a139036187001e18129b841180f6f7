@@ -1,0 +1,22 @@
+package interface_poly.array;
+
+public class Car {
+	
+	String model;
+	String color;
+	
+	int speed;
+	
+	Tire[] tires;
+	
+	public void run() {
+		for(Tire tire : tires) {
+			tire.roll();
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

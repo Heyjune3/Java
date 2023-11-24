@@ -1,0 +1,11 @@
+package a_object.toString;
+
+public class ToStringExample {
+
+	public static void main(String[] args) {
+		Object obj = new Object();
+		
+		String result = obj.toString();
+	}
+
+}

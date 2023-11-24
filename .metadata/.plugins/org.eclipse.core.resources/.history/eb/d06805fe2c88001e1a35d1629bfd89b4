@@ -1,0 +1,19 @@
+package a_object.equals;
+
+public class Member {
+	
+	String id;
+
+	public Member(String id) {
+		super();
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "Member [id=" + id + "]";
+	}
+	
+	
+	
+}

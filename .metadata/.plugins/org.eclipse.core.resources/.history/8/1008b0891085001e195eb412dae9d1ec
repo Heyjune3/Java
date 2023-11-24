@@ -1,0 +1,17 @@
+package extends5_polymorphism.array;
+
+public class Customer {
+	
+	int customerID;				// 소비자 아이디
+	String customerName;		// 소비자 이름
+	String customerGrade;		// 소비자 등급
+	int bonusPoint;				// 보너스포인트
+	double bonusRatio;			// 보너스 비율
+	
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+		this.customerGrade = "SILVER";
+		this.bonusRatio = 0.01;
+	}
+}

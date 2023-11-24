@@ -1,0 +1,11 @@
+package com.bitc.conditional_statement;
+
+public class If_SwitchExample {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+	}
+	
+}

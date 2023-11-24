@@ -1,0 +1,18 @@
+package extends5_polymorphism.array;
+
+public class CustomerExample {
+
+	public static void main(String[] args) {
+		Customer[] customerList = new Customer[5];
+		
+		Customer customerLee = new Customer(10110,"이준호");
+		Customer customerKim = new Customer(10111,"김규민");
+		customerList[0] = customerLee;
+		customerList[1] = customerKim;
+		
+		System.out.println("== 고객 정보 ==");
+		for(Customer c : customerList) {
+			System.out.println(c.toString());
+		}
+	}
+}

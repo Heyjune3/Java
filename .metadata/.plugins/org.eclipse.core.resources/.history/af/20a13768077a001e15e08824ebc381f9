@@ -1,0 +1,29 @@
+package com.bitc.conditional_statement;
+
+import java.util.Scanner;
+
+// import java.util.Scanner;
+
+public class If_SwitchExample {
+	
+	public static void main(String[] args) {
+		// ctrl + shift + o : 자동 import
+		Scanner sc = new Scanner(System.in);
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

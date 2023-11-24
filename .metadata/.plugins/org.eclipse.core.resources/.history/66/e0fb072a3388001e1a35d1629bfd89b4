@@ -1,0 +1,13 @@
+package a_object.hashcode;
+
+public class KeyExample {
+
+	public static void main(String[] args) {
+		
+		Key key1 = new Key(1);
+		Key key2 = new Key(2);
+		Key key3 = new Key(1);
+		
+	}
+
+}

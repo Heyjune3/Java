@@ -1,0 +1,9 @@
+package com.bitc.operator;
+
+public class Operator01EqualsTest {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

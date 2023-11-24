@@ -1,0 +1,14 @@
+package com.bitc.operator;
+
+public class Operator01EqualsTest {
+	
+	public static void main(String[] args) {
+		// 크기 비교 연산자
+		// >, >=, <, <=
+		// 동등 비교 연산자
+		// != , == 
+		// 논리 비교 연산자
+		// &&, || , ^, &,  
+	}
+
+}

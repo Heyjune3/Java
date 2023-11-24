@@ -1,0 +1,15 @@
+package extends2_phone;
+
+public class Phone {
+	
+	String model;
+	String color;
+	
+	public Phone() {}
+	
+	public Phone(String model, String color) {
+		this.model = model;
+		this.color = color;
+	}
+	
+}

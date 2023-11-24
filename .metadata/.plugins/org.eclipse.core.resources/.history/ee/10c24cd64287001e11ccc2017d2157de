@@ -1,0 +1,13 @@
+package abstract_base;
+
+public class Animal {
+	
+	String Kind;		// 분류
+	
+	public void breath() {
+		System.out.println("숨을 쉰다.");
+	}
+	
+	public abstract void sound(); 
+
+}

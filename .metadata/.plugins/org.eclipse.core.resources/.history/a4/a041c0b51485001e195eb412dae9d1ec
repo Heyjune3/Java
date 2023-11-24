@@ -1,0 +1,7 @@
+package extends5_polymorphism.array;
+
+public class VIPCustomer extends GoldCustomer{
+
+	private int agentID;		// 담당 직원
+	
+}

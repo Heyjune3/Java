@@ -1,0 +1,9 @@
+package a_object.hashcode;
+
+public class KeyExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}

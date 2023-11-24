@@ -1,0 +1,36 @@
+package com.bitc.operator;
+
+public class Operator01EqualsTest {
+	
+	public static void main(String[] args) {
+		// 크기 비교 연산자
+		// >, >=, <, <=
+		// 동등 비교 연산자
+		// != , == 
+		// 논리 비교 연산자
+		// &&, || , ^, &, | 
+		
+		int num1 = 10, num2 = 20;
+		/*
+		 	num1 에 저장된 값이 num2 보다 크면 true
+		 	같거나 작으면 					  false
+		 */
+		boolean result = num1 > num2;
+		System.out.println("result : " + result);
+		
+		result = num1 == num2;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

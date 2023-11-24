@@ -1,0 +1,18 @@
+package interface_base;
+
+public class RemoteControlExam {
+
+	public static void main(String[] args) {
+		
+		RemoteControl airRemote; // = new RemoteControl();
+		airRemote = new AirRemoteController();
+		
+		System.out.println(RemoteControl.MAX_VALUE);
+		System.out.println(RemoteControl.MIN_VALUE);
+		airRemote.turnOn();
+		airRemote.setValue(11);
+		airRemote.turnOff();
+		
+	}
+
+}

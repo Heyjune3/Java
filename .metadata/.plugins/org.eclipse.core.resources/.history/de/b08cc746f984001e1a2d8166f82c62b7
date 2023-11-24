@@ -1,0 +1,8 @@
+package extends4_protected.b;
+
+import extends4_protected.a.B;
+
+public class C extends B
+{
+
+}

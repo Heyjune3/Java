@@ -1,0 +1,15 @@
+package a_object.clone;
+
+public class CloneExample {
+
+	public static void main(String[] args) {
+		
+		Member member = new Member(
+				"이준호",28,
+				new int[] {100,99,97},
+				new Car("캐스퍼")
+				);
+		
+	}
+
+}

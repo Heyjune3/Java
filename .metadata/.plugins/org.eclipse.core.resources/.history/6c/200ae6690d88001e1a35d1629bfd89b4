@@ -1,0 +1,14 @@
+package practice_04;
+
+public class Car {
+
+	public String color;
+	public int speed;
+	
+	public void changeGear(int i) {
+		
+		
+	}
+	
+	
+}

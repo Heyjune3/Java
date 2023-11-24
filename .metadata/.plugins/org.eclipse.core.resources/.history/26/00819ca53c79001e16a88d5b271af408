@@ -1,0 +1,19 @@
+package com.bitc.test;
+
+/**
+ * 문서 주석(별 2개)
+ * 이 클래스는 기본 타입의 변수 사용법을 알아봅니다.
+ * @since 2023-11-02
+ */
+
+public class VariableTest {
+/*
+  	프로그램 동작의 시작과 끝은
+  	main method에서 이루어진다.
+ */
+	public static void main(String[] args) {
+		// TODO 변수 다시 확인!!
+
+	}
+
+}

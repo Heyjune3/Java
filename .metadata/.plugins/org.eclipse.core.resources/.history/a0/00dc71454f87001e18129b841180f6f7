@@ -1,0 +1,33 @@
+package interface_base;
+
+public class SmartTVRemoteControl implements RemoteControl, Searchable{
+	
+	
+	int volume = 1;
+	int channel = 10;
+	
+	@Override
+	public void search(String word) {
+		System.out.println(word+"로 검색합니다.");
+		
+	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turnOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setValue(int value) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

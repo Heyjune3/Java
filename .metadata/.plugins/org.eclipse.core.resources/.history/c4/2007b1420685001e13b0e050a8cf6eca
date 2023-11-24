@@ -1,0 +1,13 @@
+package extends5_polymorphism.base;
+
+public class Person {
+	
+	String name;		// 이름
+	int age;			// 나이
+	int weight;			// 몸무게
+	int height;			// 키
+	
+	public Person() {
+		super
+	}
+}

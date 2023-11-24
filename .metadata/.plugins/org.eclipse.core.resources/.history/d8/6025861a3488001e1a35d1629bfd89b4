@@ -1,0 +1,12 @@
+package a_object.hashcode;
+
+public class Key {
+
+	int number;
+
+	public Key(int number) {
+		this.number = number;
+	}
+	
+	
+}

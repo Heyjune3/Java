@@ -1,0 +1,6 @@
+package interface_default;
+
+public interface Printable {
+	void print();
+	void colorPrint();
+}

@@ -1,0 +1,17 @@
+package extends2_phone;
+
+public class DMBPhone extends Phone {
+
+	int channel;
+	
+	public DMBPhone() {
+		// super(); // 생략가능
+	}
+	
+	public DMBPhone(String model, String color, int channel) {
+		this.model = model;
+		super.color = color; // color는 부모요소다 라는 걸 명시적으로 표현
+		this.channel = channel;
+	}
+	
+}
