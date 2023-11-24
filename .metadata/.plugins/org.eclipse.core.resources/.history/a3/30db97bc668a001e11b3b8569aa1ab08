@@ -30,19 +30,5 @@ public class MathExample {
 		double v8 = Math.max(10.1, 10.4);
 		System.out.println("v7 : " + v7);
 		System.out.println("v8 : " + v8);
-		
-		// 두개의 값을 매개변수로 넘겨받아 둘중 작은 수를 반환
-		int v9 = Math.min(10, 12);
-		double v10 = Math.min(10.1, 10.4);
-		System.out.println("v9 : " + v9);
-		System.out.println("v10 : " + v10);
-		
-		// 반올림
-		// 소수점 첫째자리에서 반올림하고
-		// 값을 double type으로 반환
-		double v11 = Math.rint(5.311);
-		double v12 = Math.rint(5.511);
-		System.out.println("v11 : " + v11);
-		System.out.println("v12 : " + v12);
 	}
 }
