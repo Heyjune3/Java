@@ -1,0 +1,20 @@
+package i_arrays;
+
+import java.util.Arrays;
+
+public class ArraysEqualsExample {
+
+	public static void main(String[] args) {
+		
+		int[][] original = {
+				{1,2},{3,4}
+		};
+		int[][] copy = Arrays.copyOf(original, original.length);
+		System.out.println(original.equals(copy));
+		origianl[0][0] = 10;
+		System.out.println(Arrays.toString(original));
+		System.out.println(Arrays.toString(copy));
+		System.out.println(Arrays.equals(original, copy));
+	}
+
+}

@@ -1,0 +1,9 @@
+package i_arrays;
+
+public class ArraysEqualsExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}
