@@ -9,7 +9,6 @@ INDEX VERSION 1.134+C:\Users\admin\Desktop\yes_java\.metadata\.plugins\org.eclip
 1514563649.index
 1865797976.index
 791839985.index
-1124352028.index
 606290511.index
 3790896692.index
 2355838713.index

@@ -1,0 +1,76 @@
+package g_time;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+public class LocalDateTimeExample {
+
+	public static void main(String[] args) {
+		// @since 1.8
+		// 시간 정보를 쉽게 다룰 수 있도록 추가된 class
+		// LocalDate, LocalTime, LocalDateTime
+		LocalDate toDay = LocalDate.now();
+		LocalTime present = LocalTime.now();
+		System.out.println(toDay);
+		System.out.println(present);
+		
+		LocalDate birthDay = LocalDate.of(1996, 7, 30);
+		System.out.println(birthDay);
+		
+		LocalTime birthTime = LocalTime.of(02, 02, 10);
+		birthTime = LocalTime.of(02, 02, 10, 1000000);
+		System.out.println(birthTime);
+		
+		System.out.println(toDay.getYear());
+		System.out.println(toDay.getMonthValue());
+		System.out.println(toDay.getDayOfWeek());
+		System.out.println(toDay.getDayOfYear());
+		
+		System.out.println(present.getHour() +" : " + present.getMinute() + " : " + present.getSecond());
+		
+		// 1년 전
+		LocalDate target = toDay.minusYears(1);
+		System.out.println(target);
+		
+		// 10년 후
+		target = toDay.plusYears(10);
+		System.out.println(target);
+		
+		// 5달 전
+		target = toDay.minusMonths(5);
+		System.out.println(target);
+		
+		// 20일 전
+		target = toDay.minusDays(20);
+		System.out.println(target);
+		
+		// 10시간 전
+		LocalTime targetTime = present.minusHours(10);
+		System.out.println(targetTime);
+		
+		// 5시간 후
+		targetTime = present.plusHours(5);
+		System.out.println(targetTime);
+		
+		// 10분 전
+		targetTime = present.minusMinutes(10);
+		System.out.println("10분 전 : " + targetTime);
+		
+		// 30초 후
+		targetTime = present.plusSeconds(30);
+		System.out.println("30초 후 : " + targetTime);
+
+		LocalDateTime targetDateTime = LocalDateTime.now();
+		System.out.println(targetDateTime);
+	}
+
+}
+
+
+
+
+
+
+
+
