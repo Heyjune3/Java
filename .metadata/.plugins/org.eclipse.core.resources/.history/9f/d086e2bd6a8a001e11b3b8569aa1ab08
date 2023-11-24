@@ -1,0 +1,10 @@
+package f_format;
+
+public class MessageFormatExample {
+
+	public static void main(String[] args) {
+		String text = "회원 ID : {0} \n회원이름 : {1} \n전화번호 : {2}";
+		String result = MessageFormat.format()
+	}
+
+}

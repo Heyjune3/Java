@@ -18,7 +18,7 @@ public class MessageFormatExample {
 		Object[] arguments = {1, "이준호", "01054462217"};
 		String result2 = MessageFormat.format(text2, arguments);
 		System.out.print(result2);
-		System.out.println("\n");
+		System.out.println();
 		
 		MessageFormat format = new MessageFormat(text2);
 		String result3 = format.format(arguments);
