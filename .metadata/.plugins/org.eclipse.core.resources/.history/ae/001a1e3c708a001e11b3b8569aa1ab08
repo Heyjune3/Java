@@ -1,0 +1,10 @@
+package g_time;
+
+import java.util.Calendar;
+
+public class CanlendarExample {
+
+		public static void main(String[] args) {
+			Calendar now = Calendar.getInstance();
+		}
+}

@@ -1,0 +1,22 @@
+package f_format;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateFormatExample {
+
+	public static void main(String[] args) {
+		
+		// @since 1.0 (java 최초출시버전 1.0)
+		Date date = new Date();
+		System.out.println(date.toString());
+		
+		// 위의 클래스가 복잡해서 만든 새로운 표준 클래스
+		SimpleDateFormat sdf = new SimpleDateFormat();
+		String now = sdf.format(date);
+		System.out.println(now);
+		
+		sdf = new SimpleDateFormat("yyyy-MM-dd E요일 a KK:mm:ss.SSS D");
+	}
+
+}
