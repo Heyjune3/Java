@@ -1,0 +1,11 @@
+package j_practice;
+
+import java.time.LocalDateTime;
+
+public class Practice06LocalDateTimeExample {
+
+	public static void main(String[] args) {
+		LocalDateTime targetDateTime = LocalDateTime.of(2023, 12,31,23,59,59);
+	}
+
+}
