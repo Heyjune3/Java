@@ -1,9 +1,0 @@
-package extends5_polymorphism.base;
-
-public class PersonExample {
-
-	public static void main(String[] args) {
-		//String name, int age, int weight, int height
-		Person h = new Person("이준호",28,70,175);
-	}
-}

@@ -1,0 +1,14 @@
+package j_practice;
+
+public class Practice03StringMethodExample {
+/**
+ 3. 라이브러리 기능 구현(String class method 활용)
+  사용자에게 문자열을 입력 받아 “java”라는 문자열이 입력받은 문자열에 존재할 때
+  프로그램을 종료 “java”라는 문자열이 존재 하지 않을 때 는 다시 문자열을 입력받아 
+  확인 할 수 있도록 코드를 작성하시오.
+ */
+	public static void main(String[] args) {
+
+	}
+
+}

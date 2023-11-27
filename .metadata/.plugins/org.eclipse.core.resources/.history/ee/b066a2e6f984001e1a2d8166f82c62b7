@@ -1,7 +1,0 @@
-package extends4_protected.b;
-
-import extends4_protected.a.A;
-
-public class D extends A{
-
-}

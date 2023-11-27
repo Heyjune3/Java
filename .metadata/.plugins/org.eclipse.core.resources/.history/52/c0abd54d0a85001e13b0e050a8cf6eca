@@ -1,9 +1,0 @@
-package extends5_polymorphism.base;
-
-public class Student extends Person {
-	
-	String classRoom;
-	String studentMum;
-	String grade;
-	
-}	
