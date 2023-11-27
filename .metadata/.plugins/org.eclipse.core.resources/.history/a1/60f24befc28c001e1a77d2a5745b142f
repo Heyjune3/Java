@@ -56,13 +56,6 @@ public class Practice04StringCaseExample {
 		System.out.println("한글문자 : " + a);
 		
 		a = Pattern.matches("^[\\d]*$", str);
-		System.out.println("숫자문자 : " + a);
-		
-		a = Pattern.matches("^(0|[-]?[0-9]\\d*)$", str);
-		System.out.println("숫자문자(음수포함) : " + a);
-		
-		a = Pattern.matches("^[a-zA-z]*$", str);
-		System.out.println("영어문자 : " + a);
 	}
 
 }

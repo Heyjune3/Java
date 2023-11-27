@@ -2,7 +2,6 @@ package j_practice;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class Practice04StringCaseExample {
 
@@ -51,18 +50,6 @@ public class Practice04StringCaseExample {
 		
 		System.out.println("정규표현식 =================");
 		String pattern = "^[ㄱ-ㅎ가-힣]*$";
-		// 정규표현식으로 한글 체크
-		boolean a = Pattern.matches(pattern, str);
-		System.out.println("한글문자 : " + a);
-		
-		a = Pattern.matches("^[\\d]*$", str);
-		System.out.println("숫자문자 : " + a);
-		
-		a = Pattern.matches("^(0|[-]?[0-9]\\d*)$", str);
-		System.out.println("숫자문자(음수포함) : " + a);
-		
-		a = Pattern.matches("^[a-zA-z]*$", str);
-		System.out.println("영어문자 : " + a);
 	}
 
 }
