@@ -1,5 +1,6 @@
 package c2_set;
 
+import java.util.ConcurrentModificationException;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -49,6 +50,23 @@ public class HashSetExample {
 		// s2 : A D E
 		// 교집합
 		s4.retainAll(s2);
+		System.out.println("s4 : " + s4);
+		
+		boolean isDeleted = s1.remove("A");
+		System.out.println("isDeleted : " + isDeleted);
+		System.out.println(s1);
+		
+		for(String s : s1) {
+			System.out.println(s + " ");
+			// remove안됨
+			// BCD가 있는 3개 항목을 순회하려하는데
+			// 밑의 remove로 인해 2개가 되면 오류
+			// ConcurrentModificationException
+			// 항목의 갯수가 변경되는 활동을 반복문 내에서 하면 안됨
+			if(s.equals("B")) {
+				s1.remove(s);
+			}
+		}
 	}
 
 }
