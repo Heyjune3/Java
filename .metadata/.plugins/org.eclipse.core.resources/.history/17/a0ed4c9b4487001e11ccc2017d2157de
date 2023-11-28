@@ -1,9 +1,0 @@
-package abstract_base;
-
-public class Cat extends Animal {
-	
-	@override
-	public void sound() {
-		System.out.println("냐옹");
-	}
-}

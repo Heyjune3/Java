@@ -1,9 +1,0 @@
-package interface_poly.param;
-
-public class Driver {
-	
-	public void drive() {
-		
-	}
-	
-}

@@ -1,7 +1,0 @@
-package interface_poly.param;
-
-public class Sedan implements Runnable{
-
-	
-	
-}

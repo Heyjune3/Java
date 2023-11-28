@@ -1,9 +1,0 @@
-package interface_poly.array;
-
-public class Car {
-
-	public static void main(String[] args) {
-
-	}
-
-}
