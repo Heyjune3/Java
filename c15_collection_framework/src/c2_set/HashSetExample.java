@@ -1,5 +1,6 @@
 package c2_set;
 
+import java.util.ConcurrentModificationException;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -63,6 +64,7 @@ public class HashSetExample {
 			// 밑의 remove로 인해 2개가 되면 오류
 			// ConcurrentModificationException
 			// 항목의 갯수가 변경되는 활동을 반복문 내에서 하면 안됨
+<<<<<<< HEAD
 //			if(s.equals("B")) {
 //				s1.remove(s);
 //			}
@@ -83,6 +85,12 @@ public class HashSetExample {
 		linkedSet.add("kiwi");
 		linkedSet.add("melon");
 		System.out.println(linkedSet);
+=======
+			if(s.equals("B")) {
+				s1.remove(s);
+			}
+		}
+>>>>>>> 84e2f3c069dab28ee775630386947eb007908ec7
 	}
 
 }
