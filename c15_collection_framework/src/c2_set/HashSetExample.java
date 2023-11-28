@@ -1,6 +1,5 @@
 package c2_set;
 
-import java.util.ConcurrentModificationException;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -59,16 +58,16 @@ public class HashSetExample {
 		
 		for(String s : s1) {
 			System.out.println(s + " ");
-			// remove안됨
-			// BCD가 있는 3개 항목을 순회하려하는데
-			// 밑의 remove로 인해 2개가 되면 오류
-			// ConcurrentModificationException
-			// 항목의 갯수가 변경되는 활동을 반복문 내에서 하면 안됨
-<<<<<<< HEAD
-//			if(s.equals("B")) {
+			if(s.equals("B")) {
+				// remove, add안됨
+				// BCD가 있는 3개 항목을 순회하려하는데
+				// 밑의 remove로 인해 2개가 되면 오류
+				// java.util.ConcurrentModificationException				
+				// 항목의 갯수가 변경되는 활동을 반복문 내에서 하면 안됨
 //				s1.remove(s);
-//			}
-		}// end for
+//				s1.add("E");
+			}
+		} // end for
 		
 		// 순서가 보장이 안됨
 		Set<String> hSet = new HashSet<>();
@@ -85,15 +84,11 @@ public class HashSetExample {
 		linkedSet.add("kiwi");
 		linkedSet.add("melon");
 		System.out.println(linkedSet);
-=======
-			if(s.equals("B")) {
-				s1.remove(s);
-			}
-		}
->>>>>>> 84e2f3c069dab28ee775630386947eb007908ec7
-	}
-
+		
+	} // end main
 }
+
+
 
 
 
