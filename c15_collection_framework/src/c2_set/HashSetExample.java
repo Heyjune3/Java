@@ -2,6 +2,7 @@ package c2_set;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class HashSetExample {
@@ -49,6 +50,39 @@ public class HashSetExample {
 		// s2 : A D E
 		// 교집합
 		s4.retainAll(s2);
+		System.out.println("s4 : " + s4);
+		
+		boolean isDeleted = s1.remove("A");
+		System.out.println("isDeleted : " + isDeleted);
+		System.out.println(s1);
+		
+		for(String s : s1) {
+			System.out.println(s + " ");
+			// remove안됨
+			// BCD가 있는 3개 항목을 순회하려하는데
+			// 밑의 remove로 인해 2개가 되면 오류
+			// ConcurrentModificationException
+			// 항목의 갯수가 변경되는 활동을 반복문 내에서 하면 안됨
+//			if(s.equals("B")) {
+//				s1.remove(s);
+//			}
+		}// end for
+		
+		// 순서가 보장이 안됨
+		Set<String> hSet = new HashSet<>();
+		hSet.add("apple");
+		hSet.add("banana");
+		hSet.add("kiwi");
+		hSet.add("melon");
+		System.out.println(hSet);
+
+		// 들어간 순서를 보장하는 Set
+		Set<String> linkedSet = new LinkedHashSet<>();
+		linkedSet.add("apple");
+		linkedSet.add("banana");
+		linkedSet.add("kiwi");
+		linkedSet.add("melon");
+		System.out.println(linkedSet);
 	}
 
 }
