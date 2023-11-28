@@ -1,4 +1,4 @@
-package generic.exam05;
+package exam05;
 
 public class RunClass {
 
