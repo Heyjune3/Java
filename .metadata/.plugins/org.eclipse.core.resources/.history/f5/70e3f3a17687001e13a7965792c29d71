@@ -1,8 +1,0 @@
-package practice_04;
-
-public class Car {
-	
-	String color;
-	int speed;
-	public int changeGear(int changeGrear);
-}

@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="now"/>
 		<list key="findhistory">
+			<item value="studentCourse.add(new Student(&quot;학생&quot;));"/>
 			<item value="now"/>
 			<item value="num"/>
 			<item value="count"/>

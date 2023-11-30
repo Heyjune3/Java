@@ -1,9 +1,0 @@
-package a_object.finalize;
-
-public class FinalizeExample {
-
-	public static void main(String[] args) {
-
-	}
-
-}
