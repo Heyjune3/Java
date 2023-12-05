@@ -1,9 +1,0 @@
-package i_arrays;
-
-public class ArraysSearchExample {
-
-	public static void main(String[] args) {
-
-	}
-
-}

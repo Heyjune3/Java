@@ -1,9 +1,0 @@
-package h_objects;
-
-public class ObjectsExample {
-
-	public static void main(String[] args) {
-
-	}
-
-}
