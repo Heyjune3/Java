@@ -32,4 +32,14 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="ex01_nested_class.A.B"/>
+    <fullyQualifiedTypeName name="ex02_nested_interface.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="ex03_lambda_expresstion.MyInterface"/>
+    <fullyQualifiedTypeName name="ex03_lambda_expresstion.param.MyInterface"/>
+    <fullyQualifiedTypeName name="ex03_lambda_expresstion.param.Myinterface2"/>
+    <fullyQualifiedTypeName name="ex03_lambda_expresstion.return_type.MyInterface"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Modifier"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
 </qualifiedTypeNameHistroy>
